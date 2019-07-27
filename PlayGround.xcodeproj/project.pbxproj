@@ -48,6 +48,7 @@
 		BD61AE4622EC493800CCEC02 /* RxSwift_Never_Empty.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxSwift_Never_Empty.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD61AE4C22EC52A000CCEC02 /* Rx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx.playground; sourceTree = "<group>"; };
 		BD61AE5022EC540C00CCEC02 /* Rx_FlatMapLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx_FlatMapLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD61AE5222EC5E7C00CCEC02 /* Rx_SwitchLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx_SwitchLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D709E5DBAECEB2784C1A2607 /* Pods-PlayGround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGround.release.xcconfig"; path = "Target Support Files/Pods-PlayGround/Pods-PlayGround.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +95,7 @@
 		BD61AE1722EC47D300CCEC02 = {
 			isa = PBXGroup;
 			children = (
+				BD61AE5222EC5E7C00CCEC02 /* Rx_SwitchLatest.playground */,
 				BD61AE5022EC540C00CCEC02 /* Rx_FlatMapLatest.playground */,
 				BD61AE4C22EC52A000CCEC02 /* Rx.playground */,
 				BD61AE4622EC493800CCEC02 /* RxSwift_Never_Empty.playground */,
