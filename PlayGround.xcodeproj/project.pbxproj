@@ -16,6 +16,9 @@
 		BD61AE2E22EC47D500CCEC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD61AE2D22EC47D500CCEC02 /* Assets.xcassets */; };
 		BD61AE3122EC47D500CCEC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD61AE2F22EC47D500CCEC02 /* LaunchScreen.storyboard */; };
 		BD61AE3C22EC47D500CCEC02 /* PlayGroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61AE3B22EC47D500CCEC02 /* PlayGroundTests.swift */; };
+		BD6A501122F077450033AEFC /* OpenPulbic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A501022F077450033AEFC /* OpenPulbic.framework */; };
+		BD6A501222F077450033AEFC /* OpenPulbic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A501022F077450033AEFC /* OpenPulbic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD6A501622F07AFD0033AEFC /* FilePrivateVsPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6A501522F07AFD0033AEFC /* FilePrivateVsPrivate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,20 @@
 			remoteInfo = PlayGround;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD6A501322F077460033AEFC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BD6A501222F077450033AEFC /* OpenPulbic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3EF3A6F40D7278CAEC970900 /* Pods-PlayGround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGround.debug.xcconfig"; path = "Target Support Files/Pods-PlayGround/Pods-PlayGround.debug.xcconfig"; sourceTree = "<group>"; };
@@ -49,6 +66,9 @@
 		BD61AE4C22EC52A000CCEC02 /* Rx.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx.playground; sourceTree = "<group>"; };
 		BD61AE5022EC540C00CCEC02 /* Rx_FlatMapLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx_FlatMapLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD61AE5222EC5E7C00CCEC02 /* Rx_SwitchLatest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Rx_SwitchLatest.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD6A501022F077450033AEFC /* OpenPulbic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenPulbic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6A501422F077690033AEFC /* AccessLevel.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccessLevel.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD6A501522F07AFD0033AEFC /* FilePrivateVsPrivate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePrivateVsPrivate.swift; sourceTree = "<group>"; };
 		BD70F6EB22ED537D0031D662 /* CGFloat+Advance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "CGFloat+Advance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDD0FE9322EEAB9A0033667A /* RaceCondition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RaceCondition.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D709E5DBAECEB2784C1A2607 /* Pods-PlayGround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGround.release.xcconfig"; path = "Target Support Files/Pods-PlayGround/Pods-PlayGround.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,6 +80,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19FFD1384ACD90A1283FED1 /* Pods_PlayGround.framework in Frameworks */,
+				BD6A501122F077450033AEFC /* OpenPulbic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +118,8 @@
 		BD61AE1722EC47D300CCEC02 = {
 			isa = PBXGroup;
 			children = (
+				BD6A501022F077450033AEFC /* OpenPulbic.framework */,
+				BD6A501422F077690033AEFC /* AccessLevel.playground */,
 				BDD0FE9322EEAB9A0033667A /* RaceCondition.playground */,
 				BD70F6EB22ED537D0031D662 /* CGFloat+Advance.playground */,
 				BD61AE5222EC5E7C00CCEC02 /* Rx_SwitchLatest.playground */,
@@ -130,6 +153,7 @@
 				BD61AE2F22EC47D500CCEC02 /* LaunchScreen.storyboard */,
 				BD61AE3222EC47D500CCEC02 /* Info.plist */,
 				BD61AE2A22EC47D300CCEC02 /* PlayGround.xcdatamodeld */,
+				BD6A501522F07AFD0033AEFC /* FilePrivateVsPrivate.swift */,
 			);
 			path = PlayGround;
 			sourceTree = "<group>";
@@ -155,6 +179,7 @@
 				BD61AE1D22EC47D300CCEC02 /* Frameworks */,
 				BD61AE1E22EC47D300CCEC02 /* Resources */,
 				CB6FB0FA0573536D33E61E86 /* [CP] Embed Pods Frameworks */,
+				BD6A501322F077460033AEFC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -345,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6A501622F07AFD0033AEFC /* FilePrivateVsPrivate.swift in Sources */,
 				BD61AE2C22EC47D300CCEC02 /* PlayGround.xcdatamodeld in Sources */,
 				BD61AE2622EC47D300CCEC02 /* ViewController.swift in Sources */,
 				BD61AE2422EC47D300CCEC02 /* AppDelegate.swift in Sources */,
