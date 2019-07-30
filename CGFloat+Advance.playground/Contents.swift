@@ -1,3 +1,4 @@
+import PlaygroundSupport
 import UIKit
 
 let value: CGFloat = 10
@@ -11,3 +12,4 @@ print("distance: \(value.distance(to: 1))")
 print("1.advanced(by: -1) \(1.advanced(by: -1))")
 
 print("1.advanced(by: 1) \(1.advanced(by: 1))")
+
