@@ -10,14 +10,14 @@
 		8F25CC137F1672F41C8F2F10 /* Pods_PlayGroundTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF157683346E7503449F5042 /* Pods_PlayGroundTests.framework */; };
 		A19FFD1384ACD90A1283FED1 /* Pods_PlayGround.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3F2A9CCF0B15874CBEFB24 /* Pods_PlayGround.framework */; };
 		BD61AE2422EC47D300CCEC02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61AE2322EC47D300CCEC02 /* AppDelegate.swift */; };
-		BD61AE2622EC47D300CCEC02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61AE2522EC47D300CCEC02 /* ViewController.swift */; };
+		BD61AE2622EC47D300CCEC02 /* LifeCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61AE2522EC47D300CCEC02 /* LifeCycleViewController.swift */; };
 		BD61AE2922EC47D300CCEC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD61AE2722EC47D300CCEC02 /* Main.storyboard */; };
 		BD61AE2C22EC47D300CCEC02 /* PlayGround.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD61AE2A22EC47D300CCEC02 /* PlayGround.xcdatamodeld */; };
 		BD61AE2E22EC47D500CCEC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD61AE2D22EC47D500CCEC02 /* Assets.xcassets */; };
 		BD61AE3122EC47D500CCEC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD61AE2F22EC47D500CCEC02 /* LaunchScreen.storyboard */; };
 		BD61AE3C22EC47D500CCEC02 /* PlayGroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61AE3B22EC47D500CCEC02 /* PlayGroundTests.swift */; };
-		BD6A501122F077450033AEFC /* OpenPulbic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A501022F077450033AEFC /* OpenPulbic.framework */; };
-		BD6A501222F077450033AEFC /* OpenPulbic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A501022F077450033AEFC /* OpenPulbic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD6A502022F0852C0033AEFC /* ChildLifeCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6A501F22F0852C0033AEFC /* ChildLifeCycleViewController.swift */; };
+		BD6A502522F0932C0033AEFC /* OpenPulbic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A502422F0932C0033AEFC /* OpenPulbic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		BD6A501322F077460033AEFC /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				BD6A501222F077450033AEFC /* OpenPulbic.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		3EF3A6F40D7278CAEC970900 /* Pods-PlayGround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGround.debug.xcconfig"; path = "Target Support Files/Pods-PlayGround/Pods-PlayGround.debug.xcconfig"; sourceTree = "<group>"; };
 		4E3F2A9CCF0B15874CBEFB24 /* Pods_PlayGround.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayGround.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +38,7 @@
 		AF157683346E7503449F5042 /* Pods_PlayGroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayGroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD61AE2022EC47D300CCEC02 /* PlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD61AE2322EC47D300CCEC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD61AE2522EC47D300CCEC02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD61AE2522EC47D300CCEC02 /* LifeCycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleViewController.swift; sourceTree = "<group>"; };
 		BD61AE2822EC47D300CCEC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD61AE2B22EC47D300CCEC02 /* PlayGround.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlayGround.xcdatamodel; sourceTree = "<group>"; };
 		BD61AE2D22EC47D500CCEC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,6 +54,14 @@
 		BD6A501022F077450033AEFC /* OpenPulbic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenPulbic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6A501422F077690033AEFC /* AccessLevel.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccessLevel.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD6A501D22F07D1E0033AEFC /* FilePrivateVPrivate.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilePrivateVPrivate.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD6A501E22F080190033AEFC /* Inout.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Inout.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD6A501F22F0852C0033AEFC /* ChildLifeCycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildLifeCycleViewController.swift; sourceTree = "<group>"; };
+		BD6A502422F0932C0033AEFC /* OpenPulbic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OpenPulbic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6A502622F0963B0033AEFC /* NSArray.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NSArray.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD6A502722F09D960033AEFC /* Mutating.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Mutating.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD6A502822F09FE90033AEFC /* ExpressibleByFloatLiteral.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ExpressibleByFloatLiteral.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD6A502B22F0A28C0033AEFC /* ClosureCapture.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClosureCapture.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD6A502C22F0A2DA0033AEFC /* Sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD70F6EB22ED537D0031D662 /* CGFloat+Advance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "CGFloat+Advance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDD0FE9322EEAB9A0033667A /* RaceCondition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RaceCondition.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D709E5DBAECEB2784C1A2607 /* Pods-PlayGround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGround.release.xcconfig"; path = "Target Support Files/Pods-PlayGround/Pods-PlayGround.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,8 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6A502522F0932C0033AEFC /* OpenPulbic.framework in Frameworks */,
 				A19FFD1384ACD90A1283FED1 /* Pods_PlayGround.framework in Frameworks */,
-				BD6A501122F077450033AEFC /* OpenPulbic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +91,7 @@
 		22D16569F057BE8AC410035E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BD6A502422F0932C0033AEFC /* OpenPulbic.framework */,
 				4E3F2A9CCF0B15874CBEFB24 /* Pods_PlayGround.framework */,
 				AF157683346E7503449F5042 /* Pods_PlayGroundTests.framework */,
 			);
@@ -117,6 +112,12 @@
 		BD61AE1722EC47D300CCEC02 = {
 			isa = PBXGroup;
 			children = (
+				BD6A502C22F0A2DA0033AEFC /* Sample.playground */,
+				BD6A502B22F0A28C0033AEFC /* ClosureCapture.playground */,
+				BD6A502822F09FE90033AEFC /* ExpressibleByFloatLiteral.playground */,
+				BD6A502722F09D960033AEFC /* Mutating.playground */,
+				BD6A502622F0963B0033AEFC /* NSArray.playground */,
+				BD6A501E22F080190033AEFC /* Inout.playground */,
 				BD6A501022F077450033AEFC /* OpenPulbic.framework */,
 				BD6A501D22F07D1E0033AEFC /* FilePrivateVPrivate.playground */,
 				BD6A501422F077690033AEFC /* AccessLevel.playground */,
@@ -147,7 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				BD61AE2322EC47D300CCEC02 /* AppDelegate.swift */,
-				BD61AE2522EC47D300CCEC02 /* ViewController.swift */,
+				BD61AE2522EC47D300CCEC02 /* LifeCycleViewController.swift */,
+				BD6A501F22F0852C0033AEFC /* ChildLifeCycleViewController.swift */,
 				BD61AE2722EC47D300CCEC02 /* Main.storyboard */,
 				BD61AE2D22EC47D500CCEC02 /* Assets.xcassets */,
 				BD61AE2F22EC47D500CCEC02 /* LaunchScreen.storyboard */,
@@ -178,7 +180,6 @@
 				BD61AE1D22EC47D300CCEC02 /* Frameworks */,
 				BD61AE1E22EC47D300CCEC02 /* Resources */,
 				CB6FB0FA0573536D33E61E86 /* [CP] Embed Pods Frameworks */,
-				BD6A501322F077460033AEFC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -369,8 +370,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6A502022F0852C0033AEFC /* ChildLifeCycleViewController.swift in Sources */,
 				BD61AE2C22EC47D300CCEC02 /* PlayGround.xcdatamodeld in Sources */,
-				BD61AE2622EC47D300CCEC02 /* ViewController.swift in Sources */,
+				BD61AE2622EC47D300CCEC02 /* LifeCycleViewController.swift in Sources */,
 				BD61AE2422EC47D300CCEC02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
