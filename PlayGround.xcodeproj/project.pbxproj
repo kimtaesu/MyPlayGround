@@ -36,6 +36,10 @@
 		6204DA47F055D174E003F815 /* Pods-PlayGroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGroundTests.release.xcconfig"; path = "Target Support Files/Pods-PlayGroundTests/Pods-PlayGroundTests.release.xcconfig"; sourceTree = "<group>"; };
 		A9B2B0D47545190D51F1297E /* Pods-PlayGroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGroundTests.debug.xcconfig"; path = "Target Support Files/Pods-PlayGroundTests/Pods-PlayGroundTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF157683346E7503449F5042 /* Pods_PlayGroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayGroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0D1DC222F8FD4E00FA5CBB /* Destructive.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Destructive.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD56F3D522F21F0F0066CA8C /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD56F3D622F223520066CA8C /* Protocol2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD58EF5022F51A8F0023E6BF /* SwitchError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwitchError.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD61AE2022EC47D300CCEC02 /* PlayGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD61AE2322EC47D300CCEC02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD61AE2522EC47D300CCEC02 /* LifeCycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleViewController.swift; sourceTree = "<group>"; };
@@ -63,7 +67,16 @@
 		BD6A502B22F0A28C0033AEFC /* ClosureCapture.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClosureCapture.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD6A502C22F0A2DA0033AEFC /* Sample.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Sample.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD70F6EB22ED537D0031D662 /* CGFloat+Advance.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "CGFloat+Advance.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD8B609A22F225FE00E6FD5F /* ExtensionWithProtocolAdopt.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ExtensionWithProtocolAdopt.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD8B609C22F22C2500E6FD5F /* CustomSerialQueueWithAsync.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CustomSerialQueueWithAsync.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD8B609D22F22C6C00E6FD5F /* CustomSerialQueueWithSync.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CustomSerialQueueWithSync.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD8B609E22F22C9000E6FD5F /* CustomConcurrentQueueWithAsync.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CustomConcurrentQueueWithAsync.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD8B609F22F22CBA00E6FD5F /* CustomConcurrentQueueWithSync.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CustomConcurrentQueueWithSync.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD974CDC22F39C7C00F7E749 /* DispatchWorkItem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DispatchWorkItem.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDA7E92522F3AE260047171C /* Jsonserialization+ReadingOptions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Jsonserialization+ReadingOptions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDD0FE9322EEAB9A0033667A /* RaceCondition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RaceCondition.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDFFBFAE22F30548001B91A6 /* NSOperationQueue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NSOperationQueue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDFFBFAF22F30D16001B91A6 /* KVO.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KVO.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		D709E5DBAECEB2784C1A2607 /* Pods-PlayGround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGround.release.xcconfig"; path = "Target Support Files/Pods-PlayGround/Pods-PlayGround.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +125,19 @@
 		BD61AE1722EC47D300CCEC02 = {
 			isa = PBXGroup;
 			children = (
+				BD0D1DC222F8FD4E00FA5CBB /* Destructive.playground */,
+				BD58EF5022F51A8F0023E6BF /* SwitchError.playground */,
+				BDA7E92522F3AE260047171C /* Jsonserialization+ReadingOptions.playground */,
+				BD974CDC22F39C7C00F7E749 /* DispatchWorkItem.playground */,
+				BDFFBFAF22F30D16001B91A6 /* KVO.playground */,
+				BDFFBFAE22F30548001B91A6 /* NSOperationQueue.playground */,
+				BD8B609F22F22CBA00E6FD5F /* CustomConcurrentQueueWithSync.playground */,
+				BD8B609E22F22C9000E6FD5F /* CustomConcurrentQueueWithAsync.playground */,
+				BD8B609D22F22C6C00E6FD5F /* CustomSerialQueueWithSync.playground */,
+				BD8B609C22F22C2500E6FD5F /* CustomSerialQueueWithAsync.playground */,
+				BD8B609A22F225FE00E6FD5F /* ExtensionWithProtocolAdopt.playground */,
+				BD56F3D622F223520066CA8C /* Protocol2.playground */,
+				BD56F3D522F21F0F0066CA8C /* Protocol.playground */,
 				BD6A502C22F0A2DA0033AEFC /* Sample.playground */,
 				BD6A502B22F0A28C0033AEFC /* ClosureCapture.playground */,
 				BD6A502822F09FE90033AEFC /* ExpressibleByFloatLiteral.playground */,

@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 import OpenPulbic
-import IteratorProtocol
 class ChildLifeCycleViewController: UIViewController {
   
   override func viewDidLoad() {

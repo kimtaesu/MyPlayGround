@@ -31,6 +31,7 @@ class LifeCycleViewController: UIViewController {
   }
   
   override func viewWillDisappear(_ animated: Bool) {
+    
     print("1: viewWillDisappear")
   }
   override func viewDidDisappear(_ animated: Bool) {
