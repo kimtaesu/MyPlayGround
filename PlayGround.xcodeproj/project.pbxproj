@@ -37,6 +37,7 @@
 		A9B2B0D47545190D51F1297E /* Pods-PlayGroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayGroundTests.debug.xcconfig"; path = "Target Support Files/Pods-PlayGroundTests/Pods-PlayGroundTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AF157683346E7503449F5042 /* Pods_PlayGroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayGroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0D1DC222F8FD4E00FA5CBB /* Destructive.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Destructive.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BD54F99422FB0FE900A621E7 /* DispatchGroup.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DispatchGroup.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD56F3D522F21F0F0066CA8C /* Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD56F3D622F223520066CA8C /* Protocol2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Protocol2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD58EF5022F51A8F0023E6BF /* SwitchError.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwitchError.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -125,6 +126,7 @@
 		BD61AE1722EC47D300CCEC02 = {
 			isa = PBXGroup;
 			children = (
+				BD54F99422FB0FE900A621E7 /* DispatchGroup.playground */,
 				BD0D1DC222F8FD4E00FA5CBB /* Destructive.playground */,
 				BD58EF5022F51A8F0023E6BF /* SwitchError.playground */,
 				BDA7E92522F3AE260047171C /* Jsonserialization+ReadingOptions.playground */,
