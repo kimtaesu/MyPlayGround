@@ -18,6 +18,7 @@
 		BD61AE3C22EC47D500CCEC02 /* PlayGroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD61AE3B22EC47D500CCEC02 /* PlayGroundTests.swift */; };
 		BD6A502022F0852C0033AEFC /* ChildLifeCycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6A501F22F0852C0033AEFC /* ChildLifeCycleViewController.swift */; };
 		BD6A502522F0932C0033AEFC /* OpenPulbic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6A502422F0932C0033AEFC /* OpenPulbic.framework */; };
+		BDCE74AF2305400300D7F67D /* memoryAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDCE74AE2305400300D7F67D /* memoryAddress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,9 @@
 		BD974CDC22F39C7C00F7E749 /* DispatchWorkItem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DispatchWorkItem.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDA7E92522F3AE260047171C /* Jsonserialization+ReadingOptions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Jsonserialization+ReadingOptions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDCE74AA23052DD000D7F67D /* Mirror.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Mirror.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDCE74AD23053EFD00D7F67D /* Capturing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Capturing.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDCE74AE2305400300D7F67D /* memoryAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoryAddress.swift; sourceTree = "<group>"; };
+		BDCE74B02305434900D7F67D /* Capturing2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Capturing2.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDD0FE9322EEAB9A0033667A /* RaceCondition.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RaceCondition.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDFFBFAE22F30548001B91A6 /* NSOperationQueue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = NSOperationQueue.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDFFBFAF22F30D16001B91A6 /* KVO.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = KVO.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -128,6 +132,8 @@
 		BD61AE1722EC47D300CCEC02 = {
 			isa = PBXGroup;
 			children = (
+				BDCE74B02305434900D7F67D /* Capturing2.playground */,
+				BDCE74AD23053EFD00D7F67D /* Capturing.playground */,
 				BDCE74AA23052DD000D7F67D /* Mirror.playground */,
 				BD36D92022FDCBB4004E2B57 /* ARC.playground */,
 				BD54F99422FB0FE900A621E7 /* DispatchGroup.playground */,
@@ -187,6 +193,7 @@
 				BD61AE2F22EC47D500CCEC02 /* LaunchScreen.storyboard */,
 				BD61AE3222EC47D500CCEC02 /* Info.plist */,
 				BD61AE2A22EC47D300CCEC02 /* PlayGround.xcdatamodeld */,
+				BDCE74AE2305400300D7F67D /* memoryAddress.swift */,
 			);
 			path = PlayGround;
 			sourceTree = "<group>";
@@ -406,6 +413,7 @@
 				BD61AE2C22EC47D300CCEC02 /* PlayGround.xcdatamodeld in Sources */,
 				BD61AE2622EC47D300CCEC02 /* LifeCycleViewController.swift in Sources */,
 				BD61AE2422EC47D300CCEC02 /* AppDelegate.swift in Sources */,
+				BDCE74AF2305400300D7F67D /* memoryAddress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
