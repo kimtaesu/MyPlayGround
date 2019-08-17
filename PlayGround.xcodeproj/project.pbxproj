@@ -77,6 +77,7 @@
 		BD8B609F22F22CBA00E6FD5F /* CustomConcurrentQueueWithSync.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CustomConcurrentQueueWithSync.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BD974CDC22F39C7C00F7E749 /* DispatchWorkItem.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DispatchWorkItem.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDA7E92522F3AE260047171C /* Jsonserialization+ReadingOptions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Jsonserialization+ReadingOptions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		BDCB0D4C2307BEDF00E55F34 /* ConcurrentQueueSync.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ConcurrentQueueSync.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDCE74AA23052DD000D7F67D /* Mirror.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Mirror.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDCE74AD23053EFD00D7F67D /* Capturing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Capturing.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		BDCE74AE2305400300D7F67D /* memoryAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoryAddress.swift; sourceTree = "<group>"; };
@@ -132,6 +133,7 @@
 		BD61AE1722EC47D300CCEC02 = {
 			isa = PBXGroup;
 			children = (
+				BDCB0D4C2307BEDF00E55F34 /* ConcurrentQueueSync.playground */,
 				BDCE74B02305434900D7F67D /* Capturing2.playground */,
 				BDCE74AD23053EFD00D7F67D /* Capturing.playground */,
 				BDCE74AA23052DD000D7F67D /* Mirror.playground */,

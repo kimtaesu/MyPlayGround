@@ -106,13 +106,15 @@ func Unowned_References_and_Implicitly_Unwrapped_Optional_Properties() {
     // Prints "Canada's capital city is called Ottawa"
 }
 
+//Unowned_References_and_Implicitly_Unwrapped_Optional_Properties()
+
 func Strong_Reference_Cycles_for_Closures() {
     class HTMLElement {
         
         let name: String
         let text: String?
         
-        lazy var asHTML: () -> String = { [unowned self] in
+        lazy var asHTML: () -> String = {
             
             if let text = self.text {
                 return "<\(self.name)>\(text)</\(self.name)>"
@@ -141,4 +143,32 @@ func Strong_Reference_Cycles_for_Closures() {
     paragraph = nil
 }
 
-Strong_Reference_Cycles_for_Closures()
+//Strong_Reference_Cycles_for_Closures()
+
+func strongRefObjectByUnowned() {
+    class Customer {
+        let name: String
+        var card: CreditCard?
+        init(name: String) {
+            self.name = name
+        }
+        deinit { print("\(name) is being deinitialized") }
+    }
+    
+    class CreditCard {
+        let number: UInt64
+        let customer: Customer
+        
+        init(number: UInt64, customer: Customer) {
+            self.number = number
+            self.customer = customer
+        }
+        deinit { print("Card #\(number) is being deinitialized") }
+    }
+    var john: Customer?
+    john = Customer(name: "John Appleseed")
+    john!.card = CreditCard(number: 1234_5678_9012_3456, customer: john!)
+    john = nil
+}
+
+strongRefObjectByUnowned()
